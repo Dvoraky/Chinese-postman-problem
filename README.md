@@ -1,2 +1,4 @@
 # Chinese-postman-problem
-This is a greedy solution to the Chinese Postman problem, the criterion is to obtain the edge with the lowest cost.
+This is a greedy solution to the Chinese Postman problem, the criterion is to obtain the edge with the lowest cost, and when there are no other edges, it uses Dijkstra's algorithm to calculate which is the best vertex to go to and follows the path of the minimum cost calculated by Dijkstra. When all the edges are traversed and it is not at the origin, Dijkstra is used again to find the best path to the origin.
+
+Esta é uma solução gulosa para o problema do carteiro chinês, o critério é obter a aresta com o menor custo, e quando não há outras arestas, ele utiliza o algoritmo de Dijkstra para calcular qual é o melhor vértice para ir e segue o caminho do custo mínimo calculado pelo Dijkstra. Quando todas as arestas são percorridas e ele não está na origem, é utilizado Dijkstra novamente para achar o melhor caminho para a origem.
