@@ -5,9 +5,11 @@ Este repositório apresenta soluções para o problema do carteiro chinês em gr
 This repository presents solutions to the Chinese Postman problem in mixed graphs, namely a greedy heuristic, a local search, and two metaheuristic implementations, namely GLS (Guided Local Search) and ACO (Ant Colony Optimization), as well as a graphical visualization of the graph and its path. The greedy heuristic uses the nearest neighbour and the local search makes a change in the order of the edges to be traversed. The Floyd-Warshall algorithm is used to return to the origin by the shortest path or to take the shortest path to the vertex with edges not yet traversed. OpenMP was also used to parallelize the program.
 
 Windows:
+
 g++ main.cpp PCC.cpp -fopenmp -O3 -Isrc/include -o main -Lsrc/lib -lsfml-graphics -lsfml-window -lsfml-system; & ./main.exe
 
 Linux:
+
 g++ main.cpp PCC.cpp -fopenmp -O3 -lsfml-graphics -lsfml-window -lsfml-system -lsfml-network -lsfml-audio && ./a.out
 
 
